@@ -1,0 +1,60 @@
+.section {
+    width: 1111px;
+    height: 658px;
+    margin-top: 70px;
+    display: flex;
+    background-color: #E7816B;
+    border-radius: 15px;
+    &_left {
+        width: 540px;
+        height: 350px;
+        padding: 145px 95px;
+        &-title {
+            width: 540px;
+            height: 165px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            color: #fff;
+        }
+        &-text {
+            width: 445px;
+            height: 78px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #fff;
+        }
+        &-btn {
+            width: 152px;
+            height: 56px;
+            border-radius: 8px;
+            background-color: #fff;
+            margin-top: 40px;
+            border: none;
+            &_text {
+                width: 103px;
+                font-family: 'Jost', sans-serif;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 21px;
+                color: #333136;
+                text-decoration: none;
+            }
+        }
+        &-btn:hover {
+            cursor: pointer;
+            background-color: #FFAD9B;
+        }
+    }
+    &_right-img {
+        margin-left: -70px;
+    }
+    &_right--img {
+        position: relative;
+        margin-top: -490px;
+        margin-left: 180px;
+    }
+}

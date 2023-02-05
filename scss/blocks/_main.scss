@@ -1,0 +1,49 @@
+.main {
+    width: 1111px;
+    height: 292px;
+    margin-top: 160px;
+    background-color: #E7816B;
+    border-radius: 15px;
+    padding: 72px 557px 46px 95px;
+    display: flex;
+    position: relative;
+    &_title {
+        width: 268px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        color: #fff;
+    }
+    &_text {
+        width: 459px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+        margin-top: 10px;
+    }
+    &_btn {
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 40px;
+        border: none;
+        margin-left: 309px;
+        &-text {
+            width: 115px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 21px;
+            color: #333136;
+            text-decoration: none;
+        }
+    }
+    &_btn:hover {
+        cursor: pointer;
+        background-color: #FFAD9B;
+    }
+}

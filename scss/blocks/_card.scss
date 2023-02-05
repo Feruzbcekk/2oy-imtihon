@@ -1,0 +1,29 @@
+.card {
+    width: 1110px;
+    height: 412px;
+    margin-top: 160px;
+    display: flex;
+    gap: 30px;
+}
+
+.cards {
+    width: 350px;
+    height: 412px;
+    text-align: center;
+    &_title {
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #333136;
+        margin-top: 48px;
+    }
+    &_text {
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333136;
+        margin-top: 32px;
+    }
+}
